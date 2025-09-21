@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  packing-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: manoel_packing_api
+    ports:
+      - "3000:3000"
+    environment:
+      # Aqui você poderia injetar a API_KEY em um cenário real
+      # API_KEY: ${API_KEY}
+    restart: unless-stopped
