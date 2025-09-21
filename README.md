@@ -15,10 +15,6 @@ npm run test
 docker build -t nest-packaging .
 docker run -p 3000:3000 nest-packaging
 
-Swagger: http://localhost:3000/api
-
-Usar token no header: x-api-key: <token>
-
 # 📦 Loja do Seu Manoel - API de Empacotamento
 
 ## 🏗 Arquitetura
