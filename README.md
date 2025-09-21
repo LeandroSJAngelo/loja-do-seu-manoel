@@ -54,7 +54,7 @@ A API utiliza **API Key Authentication** para autenticação.
 A documentação interativa está disponível em:
 
 ```
-http://localhost:3000/api
+http://localhost:3000/api-doc
 ```
 
 ---
