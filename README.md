@@ -1,5 +1,5 @@
 # Clonar repositório
-git clone https://github.com/SEU_USUARIO/nest-packaging.git
+git clone git@github.com:LeandroSJAngelo/loja-do-seu-manoel.git
 cd nest-packaging
 
 # Instalar dependências
@@ -66,7 +66,7 @@ http://localhost:3000/api
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/SEU_USUARIO/nest-packaging.git
+   git clone git@github.com:LeandroSJAngelo/loja-do-seu-manoel.git
    cd nest-packaging
    ```
 2. Instale as dependências:
