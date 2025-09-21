@@ -1,5 +1,6 @@
 # Clonar repositório
 git clone git@github.com:LeandroSJAngelo/loja-do-seu-manoel.git
+
 cd nest-packaging
 
 # Instalar dependências
@@ -12,7 +13,8 @@ npm run start:dev
 npm run test
 
 # Rodar com Docker
-docker build -t nest-packaging .
+docker build -t nest-packaging . 
+
 docker run -p 3000:3000 nest-packaging
 
 # 📦 Loja do Seu Manoel - API de Empacotamento
